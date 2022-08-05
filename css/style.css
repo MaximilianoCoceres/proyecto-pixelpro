@@ -67,7 +67,7 @@ aside, main{
     position: relative;
     top: 35.5em;
     left: 5.2em;
-    /* display: none; */
+    display: none;
 }
 
 .circulo-titulo{
