@@ -9,6 +9,10 @@
 
 @media screen and (min-width:768px) {
 
+    .box{
+        display: none;
+    }
+
     .overflow-y-none {
         overflow-y: hidden;
     }
