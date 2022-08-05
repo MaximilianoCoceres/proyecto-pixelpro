@@ -1,0 +1,214 @@
+/*
+#1 sobre mi
+#2 portfolio
+#3 conocimientos
+#4 contacto
+*/
+
+.wrapper,.row,.columnSm,.portfolio{
+    height: 100vh;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*#1 sobre mi*/
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+aside, main{
+    width: 100%;
+}
+
+
+
+
+
+.info-container{
+    display: flex;
+    
+}
+
+.imagen768{
+    width: 30em;
+    position: absolute;
+    top: 15em;
+    display: none;
+    
+}
+
+.imagenMovil{
+    width: 25em;
+    position: absolute;
+    top: 0.7em;
+    left: 1.5em;
+}
+
+
+
+
+.circulo-fondo{
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+    background-color: aliceblue;
+    position: relative;
+    top: 32.7em;
+    left: 5.2em;
+    /* display: none; */
+}
+
+.circulo-titulo{
+    width: 25em;
+    height: 25em;
+    border-radius: 50%;
+    background-color: aliceblue;
+    position: relative;
+    top: 7em;
+    left: -10em;
+    display: none;
+}
+
+
+.slide{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+article .slide p{
+    width: 100%;
+
+}
+
+.slide .iam{
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+
+article h1{
+    font-weight: 900;
+    font-size: 4em;
+}
+
+article h2{
+    font-size: 3em;
+    margin-top: -0.6em;
+}
+.sobreMi p{
+    width: 100%;
+    font-size: 1em;
+}
+
+.sobreMi{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 3em;
+
+}
+
+.sobreMi h1,.sobreMi h2{
+    font-size: 2em;
+}
+
+.cualidades{
+    margin-top: 0.5em;
+}
+
+.cualidades i{
+    margin: 0.5em 0.5em 0 0;
+
+    font-size: 1.6em;
+}
+
+
+/*#2 portfolio*/
+.portfolio{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.row-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5em;
+    
+    justify-content: center;
+}
+
+
+
+.portfolio .column{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+} 
+
+.portfolio .column figure{
+    /* border: 1px solid #ddd; */
+    box-shadow: 0 0 4px 0 #000;
+}
+
+.portfolio .column figure figcaption{
+    padding: 2em;
+    height: 100%;
+    min-height: 16em;
+}
+.portfolio .column figure figcaption h2{
+    font-size: 20px;
+}
+
+.portfolio .column figure figcaption p{
+    margin: 0.5em 0;
+    font-size: 15px;
+}
+.portfolio .column img{
+    width: 100%;
+    max-height: 10em;
+    height: 10em;
+    
+}
+
+.portfolio .column figure figcaption button{
+    padding: 0.7em;
+    font-family: var(--font-family);
+    font-weight: 600;
+    color: rgb(12, 45, 65);
+    margin-top: 1em;
+    margin-left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+}
+
+
+.portfolio .column figure figcaption button:hover{
+    background-color: var(--color-detalles);
+    color: var(--color-primary);
+    transition: 0.4s;
+}
+
+.portfolio .column figure figcaption button:hover::after{
+    content: " \2192";
+}

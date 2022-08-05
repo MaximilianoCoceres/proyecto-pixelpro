@@ -1,0 +1,51 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,900&display=swap');
+
+:root{
+    --font-family:'Lato', sans-serif;
+    --font-family-title:'Kanit', sans-serif;
+    --color-primary:#ddd;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1,h2,h3{
+    font-family: var(--font-family-title);
+}
+
+span,p{
+    font-family: var(--font-family);
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-primary);
+    font-family: var(--font-family);
+
+}
+
+li{
+    list-style: none;
+}
+
+html{
+    background-color: rgb(12, 45, 65);
+    height: 100vh;
+    color: var(--color-primary);
+
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    padding: 1em;
+    overflow-x: hidden;
+}

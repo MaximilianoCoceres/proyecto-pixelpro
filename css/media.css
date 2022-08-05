@@ -1,0 +1,113 @@
+/*
+#1 sobre mi
+#2 portfolio
+#3 conocimientos
+#4 contacto
+*/
+
+/*Sobre mi*/
+
+@media screen and (min-width:768px) {
+
+    .overflow-y-none {
+        overflow-y: hidden;
+    }
+
+    body {
+        padding: 0;
+    }
+
+    /*#1 Sobre mi*/
+    .row {
+        flex-direction: row;
+    }
+
+    aside,
+    main {
+        width: 50%;
+    }
+
+    .circulo-fondo,
+    .circulo-titulo {
+        display: block;
+    }
+
+    .circulo-fondo {
+        width: 30em;
+        height: 30em;
+        top: 27.5em;
+        left: 2.7em;
+    }
+
+    .circulo-titulo {
+        top: 8em;
+        left: -10em;
+    }
+
+    .imagen768 {
+        display: block;
+    }
+
+    .imagenMovil {
+        display: none;
+        width: 30em;
+    }
+
+    aside .columnSm {
+        width: 100%;
+        display: flex;
+        /* justify-content: center;
+        align-items: center; */
+
+    }
+
+    main .columnSm {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slide {
+        top: 6em;
+        right: 30em;
+        color: rgb(12, 45, 65);
+    }
+
+    article .slide p {
+        width: 40%;
+    }
+
+    .sobreMi {
+        top: -5em;
+    }
+
+    .sobreMi p {
+        width: 70%;
+        font-size: 1.3em;
+    }
+
+    .cualidades i {
+        font-size: 2em;
+    }
+
+    .footer-css-header {
+        background: none;
+        box-shadow: none;
+        backdrop-filter: none;
+    }
+    
+    .portfolio{
+        flex-direction: row;
+    }
+    
+    .row-container{
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 5em;
+    }
+
+    .portfolio .column{
+        width: 25%;
+    }
+}
