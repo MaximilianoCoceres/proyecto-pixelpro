@@ -162,9 +162,10 @@
     }
 
     .circulo-fondo {
-        width: 20em;
-        height: 20em;
-        top: 35%;
+        width: 25em;
+        height: 25em;
+        top: 36%;
+        left: 4%;
         position: relative;
 
     }
@@ -173,8 +174,8 @@
         width: 20em;
         height: 20em;
         position: relative;
-        top: 7em;
-        left: -7em;
+        top: 12%;
+        left: -18%;
     }
 
     .imagen768 {
@@ -235,7 +236,7 @@
     }
 
     #sobremi {
-        padding-left: 4em;
+        padding-left: 8em;
     }
 
     .cualidades i {
