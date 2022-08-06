@@ -7,9 +7,134 @@
 
 /*Sobre mi*/
 
-@media screen and (min-width:768px) {
 
-    .box{
+
+@media screen and (min-width:768px) {
+    .portfolio .column {
+        width: 33.33%;
+    }
+
+
+    .overflow-y-none {
+        overflow-y: hidden;
+    }
+
+    body {
+        padding: 0;
+    }
+
+    /*#1 Sobre mi*/
+    .row {
+        flex-direction: row;
+    }
+
+    aside,
+    main {
+        width: 50%;
+    }
+
+    /* .circulo-fondo,
+    .circulo-titulo {
+        display: block;
+    } */
+
+    .circulo-fondo {
+        width: 20em;
+        height: 20em;
+        top: 35%;
+        position: relative;
+
+    }
+
+    .circulo-titulo {
+        width: 20em;
+        height: 20em;
+        position: relative;
+        top: 7em;
+        left: -7em;
+        display: none;
+    }
+
+    .imagen768 {
+        display: block;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+
+    .imagenMovil {
+        display: none;
+        width: 30em;
+    }
+
+    aside .columnSm {
+        width: 100%;
+        display: flex;
+        /* justify-content: center;
+        align-items: center; */
+
+    }
+
+    main .columnSm {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .slide {
+        top: 50%;
+        left: 50%;
+        color: rgb(12, 45, 65);
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
+
+    .slide h1 {
+        font-size: 3em;
+    }
+
+    .slide h2 {
+        font-size: 2em;
+        white-space: nowrap;
+    }
+
+    article .slide p {
+        width: 40%;
+    }
+
+    .slide-sm {
+        padding-right: 1em;
+    }
+
+
+    .sobreMi p {
+        font-size: 1em;
+        padding-right: 1em;
+    }
+
+    .cualidades i {
+        font-size: 2em;
+    }
+
+
+    .row-container {
+
+        padding: 5em;
+    }
+
+    .portfolio .column {
+        width: 100%;
+    }
+}
+
+
+
+
+@media screen and (min-width:992px) {
+
+    .box {
         display: none;
     }
 
@@ -37,19 +162,27 @@
     }
 
     .circulo-fondo {
-        width: 30em;
-        height: 30em;
-        top: 27.5em;
-        left: 2.7em;
+        width: 20em;
+        height: 20em;
+        top: 35%;
+        position: relative;
+
     }
 
     .circulo-titulo {
-        top: 8em;
-        left: -10em;
+        width: 20em;
+        height: 20em;
+        position: relative;
+        top: 7em;
+        left: -7em;
     }
 
     .imagen768 {
         display: block;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
     }
 
     .imagenMovil {
@@ -67,51 +200,56 @@
 
     main .columnSm {
         display: flex;
-        justify-content: center;
         align-items: center;
     }
 
     .slide {
-        top: 6em;
-        right: 30em;
+        top: 50%;
+        left: 50%;
         color: rgb(12, 45, 65);
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
+
+    .slide h1 {
+        font-size: 3em;
+    }
+
+    .slide h2 {
+        font-size: 2em;
+        white-space: nowrap;
     }
 
     article .slide p {
         width: 40%;
     }
 
-    .sobreMi {
-        top: -5em;
+    .slide-sm {
+        display: none;
     }
+
 
     .sobreMi p {
         width: 70%;
-        font-size: 1.3em;
+        font-size: 1em;
+    }
+
+    #sobremi {
+        padding-left: 4em;
     }
 
     .cualidades i {
         font-size: 2em;
     }
 
-    .footer-css-header {
-        background: none;
-        box-shadow: none;
-        backdrop-filter: none;
-    }
-    
-    .portfolio{
-        flex-direction: row;
-    }
-    
-    .row-container{
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
+
+
+    .row-container {
+
         padding: 5em;
     }
 
-    .portfolio .column{
-        width: 25%;
+    .portfolio .column {
+        width: 50%;
     }
 }

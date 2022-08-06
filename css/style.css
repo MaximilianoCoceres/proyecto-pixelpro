@@ -5,11 +5,14 @@
 #4 contacto
 */
 
-.wrapper,.row,.columnSm,.portfolio{
+.wrapper,
+.row,
+.columnSm,
+.portfolio {
     height: 100vh;
 }
 
-.wrapper{
+.wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,17 +21,18 @@
 
 /*#1 sobre mi*/
 
-.row{
+.row {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
-    
+
+
 }
 
-aside, main{
+aside,
+main {
     width: 100%;
 }
 
@@ -36,20 +40,19 @@ aside, main{
 
 
 
-.info-container{
+.info-container {
     display: flex;
-    
+
 }
 
-.imagen768{
+.imagen768 {
     width: 30em;
     position: absolute;
-    top: 15em;
     display: none;
-    
+
 }
 
-.imagenMovil{
+.imagenMovil {
     width: 25em;
     position: absolute;
     top: 0.7em;
@@ -59,62 +62,58 @@ aside, main{
 
 
 
-.circulo-fondo{
+.circulo-fondo {
     width: 15em;
     height: 15em;
     border-radius: 50%;
     background-color: aliceblue;
-    position: relative;
-    top: 35.5em;
-    left: 5.2em;
-    display: none;
+    display: block;
 }
 
-.circulo-titulo{
+.circulo-titulo {
     width: 25em;
     height: 25em;
     border-radius: 50%;
     background-color: aliceblue;
-    position: relative;
-    top: 7em;
-    left: -10em;
+    
     display: none;
 }
 
 
-.slide{
+.slide {
     display: flex;
     flex-direction: column;
     position: relative;
-    
+
 }
 
-article .slide p{
+article .slide p {
     width: 100%;
 
 }
 
-.slide .iam{
+.slide .iam {
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 
-article h1{
+.sobreMi h1 {
     font-weight: 900;
-    font-size: 4em;
+    font-size: 6em;
 }
 
-article h2{
+article h2 {
     font-size: 3em;
     margin-top: -0.6em;
 }
-.sobreMi p{
+
+.sobreMi p {
     width: 100%;
     font-size: 1em;
 }
 
-.sobreMi{
+.sobreMi {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -122,15 +121,16 @@ article h2{
 
 }
 
-.sobreMi h1,.sobreMi h2{
+.sobreMi h1,
+.sobreMi h2 {
     font-size: 2em;
 }
 
-.cualidades{
+.cualidades {
     margin-top: 0.5em;
 }
 
-.cualidades i{
+.cualidades i {
     margin: 0.5em 0.5em 0 0;
 
     font-size: 1.6em;
@@ -138,7 +138,7 @@ article h2{
 
 
 /*#2 portfolio*/
-.portfolio{
+.portfolio {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -146,69 +146,107 @@ article h2{
 }
 
 
-.row-container{
+.row-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.portfolio .column {
+    width: 100%;
+    padding: 0 1em;
+    margin-bottom: 1em;
+}
+
+.portfolio .column figure {
+    /* border: 1px solid #ddd; */
+    box-shadow: 0 0 4px 0 #000;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    padding-top: 5em;
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio .column figure:hover figcaption {
+    transform: translateY(0%);
+    white-space: normal;
+    transition: .4s;
+    padding: 3em;
     
+}
+
+.portfolio .column figure figcaption {
+    padding: 1em 3em;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform: translateY(calc(100% - 3.3em));
+}
+
+.portfolio .column figure figcaption>div:first-child {
+    flex-grow: 1;
+}
+
+.portfolio .column figure figcaption>div:last-child {
+    margin-top: 2em;
+    display: flex;
     justify-content: center;
 }
 
-
-
-.portfolio .column{
+.portfolio .column img {
     width: 100%;
-    
-    display: flex;
-    flex-direction: column;
-    padding: 1em;
-} 
-
-.portfolio .column figure{
-    /* border: 1px solid #ddd; */
-    box-shadow: 0 0 4px 0 #000;
+    object-fit: cover;
+    aspect-ratio: 4/3;
 }
 
-.portfolio .column figure figcaption{
-    padding: 2em;
-    height: 100%;
-    min-height: 16em;
-}
-.portfolio .column figure figcaption h2{
+
+.portfolio .column figure figcaption h2 {
     font-size: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
-.portfolio .column figure figcaption p{
+.portfolio .column figure:hover figcaption h2{
+    white-space: normal;
+}
+
+.portfolio .column figure figcaption p {
     margin: 0.5em 0;
     font-size: 15px;
 }
-.portfolio .column img{
-    width: 100%;
-    max-height: 10em;
-    height: 10em;
-    
-}
 
-.portfolio .column figure figcaption button{
+.portfolio .column figure figcaption a {
     padding: 0.7em;
     font-family: var(--font-family);
     font-weight: 600;
     color: rgb(12, 45, 65);
-    margin-top: 1em;
-    margin-left: 50%;
-  transform: translateX(-50%);
-  cursor: pointer;
-  border-radius: 6px;
-  border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    background-color: #ddd;
+    display: inline-block;
 }
 
-
-.portfolio .column figure figcaption button:hover{
+.portfolio .column figure figcaption a:hover {
     background-color: var(--color-detalles);
     color: var(--color-primary);
     transition: 0.4s;
 }
 
-.portfolio .column figure figcaption button:hover::after{
+.portfolio .column figure figcaption a:hover::after {
     content: " \2192";
 }
