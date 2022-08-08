@@ -14,13 +14,17 @@
     height: 3em;
     margin: 0;
     position: fixed;
-    top: 20px;
+    top: 0px;
     right: 0;
     z-index: 999;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 25px 7%;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 }
 
 .box {
@@ -149,6 +153,9 @@ input:checked:before {
     transition: all .34s;
     font-family: 'Inconsolata', monospace;
     border: 1px solid #ddd;
+    position: fixed;
+    bottom: -50em;
+    right: 15px;
 }
 
 .btncv:hover {
@@ -166,11 +173,6 @@ input:checked:before {
     display: none;
 }
 
-.btncv {
-    position: fixed;
-    bottom: 22px;
-    right: 15px;
-}
 
 
 .contenedor-logo {
@@ -319,7 +321,7 @@ header.abajo .navbar li a {
         position: relative;
         padding: 20px 10px;
         z-index: 1000;
-        bottom: 0;
+        bottom: -15px;
         right: 0;
     }
 

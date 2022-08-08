@@ -190,7 +190,7 @@ article h2 {
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    
+    font-size: 14px;
     border: 1px solid rgba(255, 255, 255, 0.18);
     top: 0;
     left: 0;
@@ -469,6 +469,7 @@ article h2 {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 3em;
   }
 
   .formulario label{
@@ -515,8 +516,28 @@ article h2 {
   }
 
   .columnContact{
-    height: 100vh;
+   
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  #contacto{
+    padding: 0;
+  }
+
+  .textContact{
+    padding: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
+
+  .textContact h1{
+    font-size: 2em;
   }
