@@ -336,7 +336,8 @@ article h2 {
   }
   
   .skills .textSkills{
-    display: none;
+    font-size: 12px;
+    margin-right: 10px;
   }
 
   .skills__header{
@@ -350,15 +351,15 @@ article h2 {
     font-weight: 600;
   }
   
-  .skills__tech{
-    margin-right: 0.5em;
-    font-size: 0.8em;
-  
-  }
 
   .front-end .skills__tech{
-    font-size: 2.5em;
+    font-size: 1.8em;
 
+  }
+
+  .skills__tech{
+    margin-right: 10px;
+    font-size: 0.8em;
   }
 
   .front-end .skills__tech p{
@@ -391,7 +392,7 @@ article h2 {
     left: -175px;
     transition: .3s;
     background-color: rgb(9, 113, 51);
-    animation: skills-bar-fill 3s ease-in-out forwards;
+    animation: skills-bar-fill 2s ease-in-out forwards;
     margin-left: 0.5em;
     height: 14px;
   }
@@ -469,7 +470,7 @@ article h2 {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 3em;
+    margin: 2em 0;
   }
 
   .formulario label{
@@ -536,6 +537,7 @@ article h2 {
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
+    margin-top: -1em;
   }
 
   .textContact h1{

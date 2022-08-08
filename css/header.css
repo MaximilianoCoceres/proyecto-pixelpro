@@ -139,6 +139,26 @@ input:checked:before {
     width: 100%;
 }
 
+.btncvF{
+    font-size: 14px;
+    display: inline-flex;
+    justify-content: center;
+    font-weight: 900;
+    background-color: #44bba4;
+    color: var(--primary-color);
+    border-radius: 10px;
+    padding: 20px;
+    text-transform: uppercase;
+    transition: all .34s;
+    font-family: 'Inconsolata', monospace;
+    border: 1px solid #ddd;
+    position: absolute;
+    bottom: 1em;
+    top: unset;
+    right: 15px;
+    display: none;
+}
+
 
 .btncv {
     font-size: 14px;
@@ -156,11 +176,22 @@ input:checked:before {
     position: fixed;
     bottom: -50em;
     right: 15px;
+    
+}
+
+.btncvF:hover{
+    transform: translateY(-10px);
 }
 
 .btncv:hover {
 
     transform: translateY(-10px);
+}
+
+.btncvF::before{
+    content: 'MI ';
+    display: inline-block;
+    margin-right: 4px;
 }
 
 .btncv::before {
@@ -305,7 +336,15 @@ header.abajo .navbar li a {
 
 @media (min-width: 768px) {
 
-    .btncv::before {
+    .btncv{
+        display: none;
+    }
+
+    .btncvF{
+        display: block;
+    }
+
+    .btncvF::before {
         content: 'DESCARGAR ';
 
     }
@@ -315,6 +354,19 @@ header.abajo .navbar li a {
 @media (min-width:992px) {
     .navbar {
         display: flex;
+    }
+
+    .btncv{
+        display: block;
+    }
+
+    .btncvF{
+        display: none;
+    }
+
+    .btncv::before {
+        content: 'DESCARGAR ';
+
     }
 
     .btncv {

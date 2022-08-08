@@ -147,7 +147,7 @@
       }
 
       .textContact{
-        height: 90vh;
+        height: 92vh;
       }
 }
 
@@ -301,7 +301,7 @@
         height: 100vh;
       }
       .textContact{
-        height: 90vh;
+        height: 92vh;
       }
 }
 
@@ -313,6 +313,10 @@
       }
 
       .textContact p{
-        width: 80%;
+        width: 100%;
       }
+}
+
+@media screen and (min-width:1440px){
+    
 }
