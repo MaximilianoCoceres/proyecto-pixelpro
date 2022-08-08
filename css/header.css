@@ -156,7 +156,7 @@ input:checked:before {
     bottom: 1em;
     top: unset;
     right: 15px;
-    display: none;
+    
 }
 
 
@@ -176,6 +176,7 @@ input:checked:before {
     position: fixed;
     bottom: -50em;
     right: 15px;
+    display: none;
     
 }
 
