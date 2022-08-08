@@ -269,7 +269,7 @@
     }
 
     .portfolio .column {
-        width: 50%;
+        width: 33%;
     }
 
     .portfolio .column figure:hover figcaption>div:first-child{
