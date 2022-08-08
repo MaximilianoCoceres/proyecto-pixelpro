@@ -274,7 +274,7 @@ article h2 {
 .conocimientos{
     display: flex;
     justify-content: center;
-    margin: 5em 1em;
+    margin: 5em 0;
     width: 100%;
 }
 .skills{
@@ -285,12 +285,12 @@ article h2 {
   }
 
 .card .columnF-end{
-    padding: 2em;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 67vh;
     
 }
 
@@ -298,10 +298,6 @@ article h2 {
     margin-bottom: 4em;
 }
 
-
-.card .columnF-end:first-child{
-    margin-right: 1em;
-}
 
 .front-end .card__title{
     font-size: 3em;
@@ -445,6 +441,7 @@ article h2 {
 
   .contactame{
     width: 100%;
+    padding: 0 2em;
   }
 
   
