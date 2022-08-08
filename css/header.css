@@ -142,7 +142,7 @@ input:checked:before {
     justify-content: center;
     font-weight: 900;
     background-color: #44bba4;
-    color: #ddd;
+    color: var(--primary-color);
     border-radius: 10px;
     padding: 20px;
     text-transform: uppercase;
@@ -169,7 +169,7 @@ input:checked:before {
 .btncv {
     position: fixed;
     bottom: 22px;
-    right: 48px;
+    right: 15px;
 }
 
 

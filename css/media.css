@@ -127,6 +127,21 @@
     .portfolio .column {
         width: 100%;
     }
+
+    .portfolio .column figure figcaption>div {
+        margin-top: 1em;
+        padding: 3em;
+        
+    }
+
+    .skills .textSkills{
+        display: block;
+        text-align:initial;
+      }
+
+      .contactame{
+        width: 40%;
+      }
 }
 
 
@@ -253,4 +268,24 @@
     .portfolio .column {
         width: 50%;
     }
+
+    .portfolio .column figure figcaption>div {
+        margin-top: 1em;
+        padding: 3em;
+        
+    }
+
+    .card{
+        grid-template-columns: auto auto;
+    }
+
+    .skills .textSkills{
+        display: block;
+        text-align:initial;
+      }
+
+      .contactame{
+        width: 40%;
+      }
+    
 }
