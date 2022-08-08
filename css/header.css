@@ -57,7 +57,7 @@ input::before {
 
 .nav {
     position: absolute;
-    top: 38px;
+    top: 45px;
     right: 38px;
     width: 150px;
     height: 150px;
@@ -67,7 +67,7 @@ input::before {
     flex-wrap: wrap;
     border-radius: 10px;
     box-shadow: 0 0 30px #00000026;
-    backdrop-filter: blur(30px);
+    background-color: rgba(12, 45, 65, 0.9);
     transform: scale(0);
     transform-origin: top right;
     transition: transform 0.4s;
