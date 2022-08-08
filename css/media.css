@@ -128,11 +128,14 @@
         width: 100%;
     }
 
-    .portfolio .column figure figcaption>div {
-        margin-top: 1em;
+    .portfolio .column figure:hover figcaption>div:first-child{
         padding: 3em;
-        
     }
+
+    .portfolio .column figure:hover figcaption>div:last-child{
+        margin-bottom: 3em;
+    }
+
 
     .skills .textSkills{
         display: block;
@@ -269,10 +272,12 @@
         width: 50%;
     }
 
-    .portfolio .column figure figcaption>div {
-        margin-top: 1em;
+    .portfolio .column figure:hover figcaption>div:first-child{
         padding: 3em;
-        
+    }
+
+    .portfolio .column figure:hover figcaption>div:last-child{
+        margin-bottom: 3em;
     }
 
     .card{
