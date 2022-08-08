@@ -538,8 +538,10 @@ article h2 {
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     margin-top: -1em;
+    height: 35vh;
   }
 
   .textContact h1{
     font-size: 2em;
+    margin-top: 1em;
   }
