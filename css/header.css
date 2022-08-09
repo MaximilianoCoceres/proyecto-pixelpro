@@ -282,7 +282,6 @@ p {
 }
 
 .contactos a:hover{
-    color: var(--color-detalles);
     transition: 0.4s;
 }
 
