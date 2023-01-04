@@ -421,6 +421,11 @@ article h2 {
     --skills-bar-lenght:20%;
   
   }
+
+  .skills__bar--30::after{
+    --skills-bar-lenght:30%;
+  
+  }
   
   
   
