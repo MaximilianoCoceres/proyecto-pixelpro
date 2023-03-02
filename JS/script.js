@@ -9,29 +9,10 @@ window.addEventListener("scroll", function () {
 })
 
 
-document.getElementById('form')
- .addEventListener('submit', function(event) {
-   event.preventDefault();
-
-   btn.value = 'Sending...';
-
-   const serviceID = 'default_service';
-   const templateID = 'template_p4s5tfr';
-
-   emailjs.sendForm(serviceID, templateID, this)
-    .then(() => {
-      btn.value = 'Send Email';
-      alert('Gracias! Te responderé pronto!');
-    }, (err) => {
-      btn.value = 'Send Email';
-      alert(JSON.stringify(err));
-    });
-});
 
 fetch("/proyectos.json")
     .then((res)=>res.json())
     .then((data)=>{
-        console.log(data)
         let portfolio = document.querySelector(".row-container");
         let proyecto = '';
         
@@ -62,7 +43,27 @@ fetch("/proyectos.json")
               </figcaption>
             </figure>
           </div> `;
-        }
+        };
 
         portfolio.innerHTML = proyecto;
-    })
+    });
+
+
+    document.getElementById('form').addEventListener('submit', function(event) {
+      event.preventDefault();
+    
+      btn.value = 'Sending...';
+    
+      const serviceID = 'default_service';
+      const templateID = 'template_p4s5tfr';
+    
+      emailjs.sendForm(serviceID, templateID, this)
+       .then(() => {
+         btn.value = 'Send Email';
+         alert('Gracias! Te responderé pronto!');
+       }, (err) => {
+         btn.value = 'Send Email';
+         alert(JSON.stringify(err));
+       });
+    });
+    
