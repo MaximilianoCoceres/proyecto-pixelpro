@@ -1,162 +1,264 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="portfolio propio">
-    <meta name="author" content="Maximiliano Cóceres">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="portfolio propio" />
+    <meta name="author" content="Maximiliano Cóceres" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Maxi Coceres, Web Developer</title>
-    <link rel="stylesheet" href="css/style.css" media="screen">
-    <link rel="stylesheet" href="css/global.css" media="screen">
-    <link rel="stylesheet" href="css/header.css" media="screen">
-    <link rel="stylesheet" href="css/media.css" media="screen">
-    <script src="https://kit.fontawesome.com/f52689b20e.js" crossorigin="anonymous"></script>
-</head>
+    <link rel="stylesheet" href="css/style.css" media="screen" />
+    <link rel="stylesheet" href="css/global.css" media="screen" />
+    <link rel="stylesheet" href="css/header.css" media="screen" />
+    <link rel="stylesheet" href="css/media.css" media="screen" />
+    <script
+      src="https://kit.fontawesome.com/f52689b20e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <div class="wrapper">
-        <!--Header-->
-        <header class="page-header">
-            <div class="contenedor-logo">
-                <a href="index.html" style="display: flex; position: relative;">
-                    <p>&lt; Soy</p>
-                    <ul>
-                        <li>Maxi Coceres</li>
-                        <li>Web Developer</li>
-                    </ul>
-                    <p> &nbsp;&gt; </p>
-                </a>
-
-            </div>
-            <ul class="navbar">
-                <li><a href="index.html">Sobre mí</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="conocimientos.html">Conocimientos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+      <!--Header-->
+      <header class="page-header">
+        <div class="contenedor-logo">
+          <a href="index.html" style="display: flex; position: relative">
+            <p>&lt; Soy</p>
+            <ul>
+              <li>Maxi Coceres</li>
+              <li>Web Developer</li>
             </ul>
-            <a href="./images/Maximiliano Coceres CV (3).pdf" class="btncv" download="Maximiliano Coceres CV"
-                title="Descargar CV"> CV</a>
+            <p>&nbsp;&gt;</p>
+          </a>
+        </div>
+        <ul class="navbar">
+          <li><a href="index.html">Sobre mí</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="conocimientos.html">Conocimientos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+        <a
+          href="./images/Maximiliano Coceres CV (3).pdf"
+          class="btncv"
+          download="Maximiliano Coceres CV"
+          title="Descargar CV"
+        >
+          CV</a
+        >
 
-            <div class="box">
-                <input type="checkbox" name="" id="">
-                <div class="nav">
-                    <a href="index.html" class="item activo"><i class="fa-solid fa-child-reaching"></i></a>
-                    <a href="portfolio.html" class="item"><i class="fa-solid fa-briefcase"></i></a>
-                    <a href="conocimientos.html" class="item "><i class="fa-solid fa-brain"></i></a>
-                    <a href="contacto.html" class="item"><i class="fa-solid fa-address-book"></i></a>
+        <div class="box">
+          <input type="checkbox" name="" id="" />
+          <div class="nav">
+            <a href="index.html" class="item activo"
+              ><i class="fa-solid fa-child-reaching"></i
+            ></a>
+            <a href="portfolio.html" class="item"
+              ><i class="fa-solid fa-briefcase"></i
+            ></a>
+            <a href="conocimientos.html" class="item"
+              ><i class="fa-solid fa-brain"></i
+            ></a>
+            <a href="contacto.html" class="item"
+              ><i class="fa-solid fa-address-book"></i
+            ></a>
+          </div>
+        </div>
+      </header>
+      <main class="portfolio">
+        <div class="row-container">
+          <div class="column">
+            <figure>
+              <img src="images/calculadora-min.jpg" alt="calculadora" />
+              <figcaption>
+                <div>
+                  <h2>Calculadora simple con JS</h2>
+                  <div class="icons">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-js"></i>
+                  </div>
+                  <div>
+                    <a href="https://calculadoramaxi.netlify.app"
+                      >Ver proyecto</a
+                    >
+                    <a href="https://github.com/MaximilianoCoceres/calculadora">
+                      <i class="fa-brands fa-github-alt"></i
+                    ></a>
+                  </div>
                 </div>
-            </div>
-        </header>
-        <main class="portfolio">
-            <div class="row-container">
+              </figcaption>
+            </figure>
+          </div>
 
-                <div class="column">
-                    <figure>
-                        <img src="images/calculadora-min.jpg" alt="calculadora">
-                        <figcaption>
-                            <div>
-                                <h2>Calculadora simple con JS</h2>
-                                <p>Calculadora hecha con html, css y JS.</p>
-                                <p>Ejercicio de práctica Platzi</p>
-                            </div>
-                            <div>
-                                <a href="https://calculadoramaxi.netlify.app">Ver proyecto</a>
-                            </div>
-                        </figcaption>
-                    </figure>
+          <div class="column">
+            <figure>
+              <img src="images/descuentos-min.jpg" alt="descuentos" />
+              <figcaption>
+                <div>
+                  <h2>Calculadora de Descuentos con JS</h2>
+                  <div class="icons">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-js"></i>
+                  </div>
+                  <div>
+                    <a href="https://calculadoramaxi.netlify.app"
+                      >Ver proyecto</a
+                    >
+                    <a href="https://github.com/MaximilianoCoceres/Curso-practivo-JS-2---Platzi">
+                      <i class="fa-brands fa-github-alt"></i
+                    ></a>
+                  </div>
                 </div>
+              </figcaption>
+            </figure>
+          </div>
 
-                <div class="column">
-                    <figure>
-                        <img src="images/descuentos-min.jpg" alt="descuentos">
-                        <figcaption>
-                            <div>
-                                <h2>Calculadora de Descuentos con JS</h2>
-                                <p>Calculadora para descuentos hecha con html, css y JS.</p>
-                                <p>Ejercicio de práctica Platzi</p>
-                            </div>
+          <div class="column">
+            <figure>
+              <img src="images/figuras-min.jpg" alt="figuras" />
+              <figcaption>
+                <div>
+                  <h2>Calculo de figuras con JS</h2>
+                  <div class="icons">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-js"></i>
+                  </div>
+                  <div>
+                    <a href="https://calculadoramaxi.netlify.app"
+                      >Ver proyecto</a
+                    >
+                    <a href="https://github.com/MaximilianoCoceres/curso-practico-javascript">
+                      <i class="fa-brands fa-github-alt"></i
+                    ></a>
+                  </div>
+              </figcaption>
+            </figure>
+          </div>
 
-                            <div>
-                                <a href="https://descuentosmaxi.netlify.app">Ver proyecto</a>
-                            </div>
-                        </figcaption>
-                    </figure>
-                </div>
+          <div class="column">
+            <figure>
+              <img src="images/otrabotella-min.jpg" alt="pagina de vinos" />
+              <figcaption>
+                <div>
+                  <h2>Página de Vinos - En proceso</h2>
+                  <div class="icons">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                  </div>
+                  <div>
+                    <a href="https://calculadoramaxi.netlify.app"
+                      >Ver proyecto</a
+                    >
+                    <a href="https://github.com/MaximilianoCoceres/otra-botella">
+                      <i class="fa-brands fa-github-alt"></i
+                    ></a>
+                  </div>
+              </figcaption>
+            </figure>
+          </div>
 
-                <div class="column">
-                    <figure>
-                        <img src="images/figuras-min.jpg" alt="figuras">
-                        <figcaption>
-                            <div>
-                                <h2>Calculo de figuras con JS</h2>
-                                <p>Calculos para figuras hecha con html, css y JS.</p>
-                                <p>Ejercicio de práctica Platzi</p>
-                            </div>
+          <div class="column">
+            <figure>
+              <img src="images/viajes-min.jpg" alt="Página viajes" />
+              <figcaption>
+                <div>
+                  <h2>Página principal de viajes Curso NTFOR</h2>
+                  <div class="icons">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-js"></i>
+                  </div>
+                  <div>
+                    <a href="https://calculadoramaxi.netlify.app"
+                      >Ver proyecto</a
+                    >
+                    <a href="https://github.com/MaximilianoCoceres/Viaje-Feliz">
+                      <i class="fa-brands fa-github-alt"></i
+                    ></a>
+                  </div>
+              </figcaption>
+            </figure>
+          </div>
 
-                            <div>
-                                <a href="https://areasfiguramaxi.netlify.app">Ver proyecto</a>
-                            </div>
-                        </figcaption>
-                    </figure>
-                </div>
+          <div class="column">
+            <figure>
+              <img src="images/news-homepages.jpg" alt="News Homepages" />
+              <figcaption>
+                <div>
+                  <h2>News Homepage - Frontend Mentor</h2>
+                  <div class="icons">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-js"></i>
+                  </div>
+                  <div>
+                    <a href="https://newshomepagemaxi.netlify.app"
+                      >Ver proyecto</a
+                    >
+                    <a href="https://github.com/MaximilianoCoceres/news-homepage">
+                      <i class="fa-brands fa-github-alt"></i
+                    ></a>
+                  </div>
+              </figcaption>
+            </figure>
+          </div>
 
-                <div class="column">
-                    <figure>
-                        <img src="images/otrabotella-min.jpg" alt="pagina de vinos">
-                        <figcaption>
-                            <div>
-
-                                <h2>Página de Vinos - En proceso</h2>
-                                <p>Página para cliente, en proceso. HTML, CSS, Bootstrap </p>
-                                <p>Página para cliente con Bootstrap</p>
-                            </div>
-                            <div>
-                                <a href="https://otrabotella.netlify.app">Ver proyecto</a>
-                            </div>
-                        </figcaption>
-                    </figure>
-                </div>
-
-                <div class="column">
-                    <figure>
-
-                        <img src="images/viajes-min.jpg" alt="Página viajes">
-                        <figcaption>
-                            <div>
-
-                                <h2>Página principal de viajes Curso NTFOR</h2>
-                                <p>Página de viajes, proyecto final de curso en NTFOR. HTML, CSS Y JAVASCRIPT </p>
-                                <p>Proyecto final de cursada, calcular precio según sitio a donde ir y cantidad de personas. Al seleccionar un sitio, tiene que cambiar la imagen.</p>
-                            </div>
-                            <div>
-                                <a href="https://viaje-feliz.netlify.app">Ver proyecto</a>
-                            </div>
-                        </figcaption>
-                    </figure>
-                </div>
-
-
-            </div>
-        </main>
-        <!--footer-->
-        <footer class="footer-css-header contactos">
-            <a href="./images/Maximiliano Coceres CV (3).pdf" class="btncvF" download="Maximiliano Coceres CV"
-                title="Descargar CV"> CV</a>
-            <a href="https://www.linkedin.com/in/maximiliano-gabriel-coceres-8a5964169/" target="_blank"><i
-                    class="fa-brands fa-linkedin-in"></i></a>
-            <a href="https://github.com/MaximilianoCoceres" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
-            <a href="https://api.whatsapp.com/send?phone=634624907" target="_blank"><i
-                    class="fa-brands fa-whatsapp"></i></a>
-            <a href="mailto:maximiprog7@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
-        </footer>
-
+          <div class="column">
+            <figure>
+              <img src="images/notification-page.jpg" alt="Notification Page" />
+              <figcaption>
+                <div>
+                  <h2>Notification Page - Frontend Mentor</h2>
+                  <div class="icons">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-js"></i>
+                  </div>
+                  <div>
+                    <a href="https://notificationpagemaxi.netlify.app"
+                      >Ver proyecto</a
+                    >
+                    <a href="https://github.com/MaximilianoCoceres/notificationPage">
+                      <i class="fa-brands fa-github-alt"></i
+                    ></a>
+                  </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </main>
+      <!--footer-->
+      <footer class="footer-css-header contactos">
+        <a
+          href="./images/Maximiliano Coceres CV (3).pdf"
+          class="btncvF"
+          download="Maximiliano Coceres CV"
+          title="Descargar CV"
+        >
+          CV</a
+        >
+        <a
+          href="https://www.linkedin.com/in/maximiliano-gabriel-coceres-8a5964169/"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <a href="https://github.com/MaximilianoCoceres" target="_blank"
+          ><i class="fa-brands fa-github-alt"></i
+        ></a>
+        <a href="https://api.whatsapp.com/send?phone=634624907" target="_blank"
+          ><i class="fa-brands fa-whatsapp"></i
+        ></a>
+        <a href="mailto:maximiprog7@gmail.com" target="_blank"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+      </footer>
     </div>
-
-</body>
-<script src="js/script.js"></script>
-
+  </body>
+  <script src="js/script.js"></script>
 </html>
