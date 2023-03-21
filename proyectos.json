@@ -1,5 +1,15 @@
 {
     "proyectos":[
+        {
+            "id":9,
+            "img":"images/imagenworklist.jpg",
+            "alt":"Worklist App",
+            "title":"Worklist App with Electron",
+            "tech":["fa-brands fa-html5","fa-brands fa-css3-alt","fa-brands fa-js","fa-solid fa-atom"],
+            "proyecto":"https://worklistapp.netlify.app",
+            "github":"https://github.com/MaximilianoCoceres/Worklist-App"
+
+        },
 
         {"id":8,
             "img":"images/interactivecreditcard.jpg",
