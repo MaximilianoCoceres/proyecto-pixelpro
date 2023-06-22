@@ -1,89 +1,126 @@
 {
-    "proyectos":[
-        {
-            "id":9,
-            "img":"images/imagenworklist.jpg",
-            "alt":"Worklist App",
-            "title":"Worklist App with Electron",
-            "tech":["fa-brands fa-html5","fa-brands fa-css3-alt","fa-brands fa-js","fa-solid fa-atom"],
-            "proyecto":"https://worklistapp.netlify.app",
-            "github":"https://github.com/MaximilianoCoceres/Worklist-App"
+  "proyectos": [
+    {
+      "id": 9,
+      "img": "images/imagenworklist.jpg",
+      "alt": "Worklist App",
+      "title": "Worklist App with Electron",
+      "tech": [
+        "fa-brands fa-html5",
+        "fa-brands fa-css3-alt",
+        "fa-brands fa-js",
+        "fa-solid fa-atom"
+      ],
+      "proyecto": "https://worklistapp.netlify.app",
+      "github": "https://github.com/MaximilianoCoceres/Worklist-App"
+    },
 
-        },
+    {
+      "id": 8,
+      "img": "images/interactivecreditcard.jpg",
+      "alt": "Interactive credit card",
+      "title": "Interactive credit card - Frontend Mentor",
+      "tech": [
+        "fa-brands fa-html5",
+        "fa-brands fa-css3-alt",
+        "fa-brands fa-js"
+      ],
+      "proyecto": "https://interactivecardmaxi.netlify.app",
+      "github": "https://github.com/MaximilianoCoceres/Interactive-card-details-form"
+    },
 
-        {"id":8,
-            "img":"images/interactivecreditcard.jpg",
-            "alt":"Interactive credit card",
-            "title":"Interactive credit card - Frontend Mentor",
-            "tech":["fa-brands fa-html5","fa-brands fa-css3-alt","fa-brands fa-js"],
-            "proyecto":"https://interactivecardmaxi.netlify.app",
-            "github":"https://github.com/MaximilianoCoceres/Interactive-card-details-form"
-        },
-        
-        {
-            "id":7,
-            "img":"images/notification-page.jpg",
-            "alt":"Notification Page",
-            "title":"Notification Page - Frontend Mentor",
-            "tech":["fa-brands fa-html5","fa-brands fa-css3-alt","fa-brands fa-js"],
-            "proyecto":"https://notificationpagemaxi.netlify.app",
-            "github":"https://github.com/MaximilianoCoceres/notificationPage"
-        },
-        {
-            "id":6,
-            "img":"images/news-homepages.jpg",
-            "alt":"News Homepages",
-            "title":"News Homepage - Frontend Mentor",
-            "tech":["fa-brands fa-html5","fa-brands fa-css3-alt","fa-brands fa-js"],
-            "proyecto":"https://newshomepagemaxi.netlify.app",
-            "github":"https://github.com/MaximilianoCoceres/news-homepage"
-        },
-        {
-            "id":5,
-            "img":"images/viajes-min.jpg",
-            "alt":"Página viajes",
-            "title":"Página principal de viajes - Curso NTFOR",
-            "tech":["fa-brands fa-html5","fa-brands fa-css3-alt","fa-brands fa-js"],
-            "proyecto":"https://calculadoramaxi.netlify.app",
-            "github":"https://github.com/MaximilianoCoceres/Viaje-Feliz"
-        },
-        {
-            "id":4,
-            "img":"images/otrabotella-min.jpg",
-            "alt":"pagina de vinos",
-            "title":"Página de Vinos - En proceso",
-            "tech":["fa-brands fa-html5","fa-brands fa-css3-alt","fa-brands fa-js", "fa-brands fa-bootstrap"],
-            "bootstrap":"fa-brands fa-bootstrap",
-            "proyecto":"https://otrabotella.netlify.app",
-            "github":"https://github.com/MaximilianoCoceres/otra-botella"
-        },
-        {
-            "id":3,
-            "img":"images/figuras-min.jpg",
-            "alt":"figuras",
-            "title":"Calculo de figuras con JS",
-            "tech":["fa-brands fa-html5","fa-brands fa-css3-alt","fa-brands fa-js"],
-            "proyecto":"https://calculadoramaxi.netlify.app",
-            "github":"https://github.com/MaximilianoCoceres/curso-practico-javascript" 
-        },
-        {
-            "id":2,
-            "img":"images/descuentos-min.jpg",
-            "alt":"descuentos",
-            "title":"Calculadora de Descuentos con JS",
-            "tech":["fa-brands fa-html5","fa-brands fa-css3-alt","fa-brands fa-js"],
-            "proyecto":"https://calculadoramaxi.netlify.app",
-            "github":"https://github.com/MaximilianoCoceres/Curso-practivo-JS-2---Platzi" 
-        },
-        {
-            "id":1,
-            "img":"images/calculadora-min.jpg",
-            "alt":"calculadora",
-            "title":"Calculadora simple con JS",
-            "tech":["fa-brands fa-html5","fa-brands fa-css3-alt","fa-brands fa-js"],
-            "proyecto":"https://calculadoramaxi.netlify.app",
-            "github":"https://github.com/MaximilianoCoceres/calculadora" 
-        }
-
-]
+    {
+      "id": 7,
+      "img": "images/notification-page.jpg",
+      "alt": "Notification Page",
+      "title": "Notification Page - Frontend Mentor",
+      "tech": [
+        "fa-brands fa-html5",
+        "fa-brands fa-css3-alt",
+        "fa-brands fa-js"
+      ],
+      "proyecto": "https://notificationpagemaxi.netlify.app",
+      "github": "https://github.com/MaximilianoCoceres/notificationPage"
+    },
+    {
+      "id": 6,
+      "img": "images/news-homepages.jpg",
+      "alt": "News Homepages",
+      "title": "News Homepage - Frontend Mentor",
+      "tech": [
+        "fa-brands fa-html5",
+        "fa-brands fa-css3-alt",
+        "fa-brands fa-js"
+      ],
+      "proyecto": "https://newshomepagemaxi.netlify.app",
+      "github": "https://github.com/MaximilianoCoceres/news-homepage"
+    },
+    {
+      "id": 5,
+      "img": "images/viajes-min.jpg",
+      "alt": "Página viajes",
+      "title": "Página principal de viajes - Curso NTFOR",
+      "tech": [
+        "fa-brands fa-html5",
+        "fa-brands fa-css3-alt",
+        "fa-brands fa-js"
+      ],
+      "proyecto": "https://viaje-feliz.netlify.app",
+      "github": "https://github.com/MaximilianoCoceres/Viaje-Feliz"
+    },
+    {
+      "id": 4,
+      "img": "images/otrabotella-min.jpg",
+      "alt": "pagina de vinos",
+      "title": "Página de Vinos - En proceso",
+      "tech": [
+        "fa-brands fa-html5",
+        "fa-brands fa-css3-alt",
+        "fa-brands fa-js",
+        "fa-brands fa-bootstrap"
+      ],
+      "bootstrap": "fa-brands fa-bootstrap",
+      "proyecto": "https://otrabotella.netlify.app",
+      "github": "https://github.com/MaximilianoCoceres/otra-botella"
+    },
+    {
+      "id": 3,
+      "img": "images/figuras-min.jpg",
+      "alt": "figuras",
+      "title": "Calculo de figuras con JS",
+      "tech": [
+        "fa-brands fa-html5",
+        "fa-brands fa-css3-alt",
+        "fa-brands fa-js"
+      ],
+      "proyecto": "https://calculadoramaxi.netlify.app",
+      "github": "https://github.com/MaximilianoCoceres/curso-practico-javascript"
+    },
+    {
+      "id": 2,
+      "img": "images/descuentos-min.jpg",
+      "alt": "descuentos",
+      "title": "Calculadora de Descuentos con JS",
+      "tech": [
+        "fa-brands fa-html5",
+        "fa-brands fa-css3-alt",
+        "fa-brands fa-js"
+      ],
+      "proyecto": "https://calculadoramaxi.netlify.app",
+      "github": "https://github.com/MaximilianoCoceres/Curso-practivo-JS-2---Platzi"
+    },
+    {
+      "id": 1,
+      "img": "images/calculadora-min.jpg",
+      "alt": "calculadora",
+      "title": "Calculadora simple con JS",
+      "tech": [
+        "fa-brands fa-html5",
+        "fa-brands fa-css3-alt",
+        "fa-brands fa-js"
+      ],
+      "proyecto": "https://calculadoramaxi.netlify.app",
+      "github": "https://github.com/MaximilianoCoceres/calculadora"
+    }
+  ]
 }
